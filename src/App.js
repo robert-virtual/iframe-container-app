@@ -7,7 +7,7 @@ function App() {
         <div class="iframe-container">
             <div class="iframe-header">
                 <h2>React SPA (Embebida en iframe)</h2>
-                <a href="http://192.168.1.16:3000" target="_blank">Abrir en nueva pestaña →</a>
+                <a href="https://robert-virtual.github.io/frontend/" target="_blank">Abrir en nueva pestaña →</a>
             </div>
             <iframe
                 id="spaIframe"
