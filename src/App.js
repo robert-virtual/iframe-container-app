@@ -1,5 +1,3 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Html5QrcodeScanner } from 'html5-qrcode';
 import './App.css';
 
 function App() {
@@ -7,7 +5,7 @@ function App() {
         <div class="iframe-container">
             <div class="iframe-header">
                 <h2>React SPA (Embebida en iframe)</h2>
-                <a href="https://robert-virtual.github.io/frontend/" target="_blank">Abrir en nueva pestaña →</a>
+                <a href="https://robert-virtual.github.io/frontend/" target="_blank" rel='noreferrer'>Abrir en nueva pestaña →</a>
             </div>
             <iframe
                 id="spaIframe"
